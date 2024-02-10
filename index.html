@@ -4,15 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first web map</title>
+    <title>University of Toronto - St. George</title>
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css' rel='stylesheet' />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">        <!-- Style -->
 </head>
 
 <body>
-    <div id="my-map" class="map-container"></div>
-    <script src="script.js"></script>
+    <div id="my-map" class="map-container"></div>   <!-- Map -->
+    <pre id="title"></pre>                          <!-- Title -->
+    <div id="legend" class="legend">                <!-- Legend -->
+        <h3>Legend</h3>
+        <div><span style="background-color: #889BF2"></span>Libraries</div>
+        <div><span style="background-color: #B42222"></span>Lecture Buildings</div>
+        <div><span style="background-color: #AB65F8"></span>Sports Facilities</div>
+    </div>
+    <script src="script.js"></script>              <!-- Script -->
 </body>
 
 </html>

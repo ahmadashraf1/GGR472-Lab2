@@ -1,6 +1,50 @@
+/* Map */
 .map-container {
     position: absolute;
     top: 0;
     bottom: 0;
     width: 100%;
+}
+
+/* Legend */
+.legend {
+    background-color: #fff;
+    border-radius: 4px;
+    bottom: 30px;
+    font: 12px/20px 'Inter', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+}
+
+/* Legend Title */
+.legend h3 {
+    margin: 0 0 10px;
+}
+
+/* Legend Items */
+.legend div span {
+    border-radius: 2px;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+}
+
+/* Title */
+#title {
+    display: block;
+    position: absolute;
+    margin: 0px auto;
+    font: 40px 'Inter', Arial, Helvetica, sans-serif;
+    font-weight:600;
+    left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    background: #222;
 }
